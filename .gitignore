@@ -31,3 +31,12 @@ taoQtiItem/
 tao/
 taoGroups/
 taoQtiTest/
+/docker-compose.yml
+/fdl-1.3.txt
+gpl-2.0.txt
+/hello.php
+/index.php
+/phpunit
+/phpunit.xml
+/tests
+/loadTesting/JMeter/jmx/jmeter.log

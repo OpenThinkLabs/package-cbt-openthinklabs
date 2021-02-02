@@ -1,179 +1,179 @@
 {
-    "name": "openthinklabs/package-tao-openthinklabs",
-    "license": "GPL-2.0-only",
-    "support": {
-      "issues": "http://forge.taotesting.com",
-      "forum": "http://forum.taotesting.com"
+  "name": "openthinklabs/package-tao-openthinklabs",
+  "license": "GPL-2.0-only",
+  "support": {
+    "issues": "http://forge.taotesting.com",
+    "forum": "http://forum.taotesting.com"
+  },
+  "authors": [
+    {
+      "homepage": "http://www.taotesting.com",
+      "name": "Open Assessment Technologies S.A."
+    }
+  ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/OpenThinkLabs/generis.git"
     },
-    "authors": [
-      {
-        "homepage": "http://www.taotesting.com",
-        "name": "Open Assessment Technologies S.A."
-      }
-    ],
-    "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/OpenThinkLabs/generis.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/tao-core.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-community.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-funcacl.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-dac-simple.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-testtaker.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-group.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-item.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-itemqti.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-itemqti-pci.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-itemqti-pic.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-test.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-testqti.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-outcome.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-outcomeui.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-outcomerds.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-outcomekeyvalue.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-outcomelti.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-delivery.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-lti.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-ltideliveryprovider.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-revision.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-mediamanager.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-pcisample.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-backoffice.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-proctoring.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-clientdiag.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-eventlog.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-task-queue.git"
-      },
-      {
-        "type": "vcs",
-        "url": "https://github.com/OpenThinkLabs/extension-tao-testqti-previewer.git"
-      }                                                                                                                                                                              
-     ],    
-    "keywords": [
-      "tao",
-      "oat",
-      "computer-based-assessment",
-      "transformative-assessment"
-    ],
-    "homepage": "http://www.taotesting.com",
-    "require": {
-      "oat-sa/generis": "13.10.1",
-      "oat-sa/tao-core": "46.8.1",
-      "oat-sa/extension-tao-community": "9.1.0",
-      "oat-sa/extension-tao-funcacl": "6.0.1",
-      "oat-sa/extension-tao-dac-simple": "6.8.3",
-      "oat-sa/extension-tao-testtaker": "7.7.3",
-      "oat-sa/extension-tao-group": "6.6.2",
-      "oat-sa/extension-tao-item": "10.17.0",
-      "oat-sa/extension-tao-itemqti": "25.18.1",
-      "oat-sa/extension-tao-itemqti-pci": "6.9.1",
-      "oat-sa/extension-tao-itemqti-pic": "5.6.5",
-      "oat-sa/extension-tao-test": "14.6.0",
-      "oat-sa/extension-tao-testqti": "40.3.2", 
-      "oat-sa/extension-tao-outcome": "12.3.1", 
-      "oat-sa/extension-tao-outcomeui": "9.5.0", 
-      "oat-sa/extension-tao-outcomerds": "7.3.2", 
-      "oat-sa/extension-tao-outcomekeyvalue": "5.7.1", 
-      "oat-sa/extension-tao-outcomelti": "4.0.0", 
-      "oat-sa/extension-tao-delivery": "14.19.0", 
-      "oat-sa/extension-tao-lti": "11.14.0", 
-      "oat-sa/extension-tao-ltideliveryprovider": "11.5.0",
-      "oat-sa/extension-tao-revision": "5.0.2", 
-      "oat-sa/extension-tao-mediamanager": "11.6.2",
-      "oat-sa/extension-pcisample": "2.10.2",
-      "oat-sa/extension-tao-backoffice": "5.1.0",
-      "oat-sa/extension-tao-proctoring": "19.20.2", 
-      "oat-sa/extension-tao-clientdiag": "7.8.1", 
-      "oat-sa/extension-tao-eventlog": "2.10.2",
-      "oat-sa/extension-tao-task-queue": "5.5.1", 
-      "oat-sa/extension-tao-testqti-previewer": "2.24.0"
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/tao-core.git"
     },
-    "require-dev" : {
-      "phpunit/phpunit" : "^8"
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-community.git"
     },
-    "description": "TAO is an Open Source e-Testing platform that empowers you to build, deliver, and share innovative and engaging assessments online – in any language or subject matter."
-  }
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-funcacl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-dac-simple.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-testtaker.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-group.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-item.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-itemqti.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-itemqti-pci.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-itemqti-pic.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-test.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-testqti.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-outcome.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-outcomeui.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-outcomerds.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-outcomekeyvalue.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-outcomelti.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-delivery.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-lti.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-ltideliveryprovider.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-revision.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-mediamanager.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-pcisample.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-backoffice.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-proctoring.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-clientdiag.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-eventlog.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-task-queue.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpenThinkLabs/extension-tao-testqti-previewer.git"
+    }                                                                                                                                                                              
+   ],    
+  "keywords": [
+    "tao",
+    "oat",
+    "computer-based-assessment",
+    "transformative-assessment"
+  ],
+  "homepage": "http://www.taotesting.com",
+  "require": {
+    "oat-sa/generis": "13.10.1",
+    "oat-sa/tao-core": "46.8.1",
+    "oat-sa/extension-tao-community": "9.1.0",
+    "oat-sa/extension-tao-funcacl": "6.0.1",
+    "oat-sa/extension-tao-dac-simple": "6.8.3",
+    "oat-sa/extension-tao-testtaker": "7.7.3",
+    "oat-sa/extension-tao-group": "6.6.2",
+    "oat-sa/extension-tao-item": "10.17.0",
+    "oat-sa/extension-tao-itemqti": "25.18.1",
+    "oat-sa/extension-tao-itemqti-pci": "6.9.1",
+    "oat-sa/extension-tao-itemqti-pic": "5.6.5",
+    "oat-sa/extension-tao-test": "14.6.0",
+    "oat-sa/extension-tao-testqti": "40.3.2", 
+    "oat-sa/extension-tao-outcome": "12.3.1", 
+    "oat-sa/extension-tao-outcomeui": "9.5.0", 
+    "oat-sa/extension-tao-outcomerds": "7.3.2", 
+    "oat-sa/extension-tao-outcomekeyvalue": "5.7.1", 
+    "oat-sa/extension-tao-outcomelti": "4.0.0", 
+    "oat-sa/extension-tao-delivery": "14.19.0", 
+    "oat-sa/extension-tao-lti": "11.14.0", 
+    "oat-sa/extension-tao-ltideliveryprovider": "11.5.0",
+    "oat-sa/extension-tao-revision": "5.0.2", 
+    "oat-sa/extension-tao-mediamanager": "11.6.2",
+    "oat-sa/extension-pcisample": "2.10.2",
+    "oat-sa/extension-tao-backoffice": "5.1.0",
+    "oat-sa/extension-tao-proctoring": "19.20.2", 
+    "oat-sa/extension-tao-clientdiag": "7.8.1", 
+    "oat-sa/extension-tao-eventlog": "2.10.2",
+    "oat-sa/extension-tao-task-queue": "5.5.1", 
+    "oat-sa/extension-tao-testqti-previewer": "2.24.0"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "^8"
+  },
+  "description": "TAO is an Open Source e-Testing platform that empowers you to build, deliver, and share innovative and engaging assessments online – in any language or subject matter."
+}
